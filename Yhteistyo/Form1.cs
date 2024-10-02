@@ -9,7 +9,7 @@ namespace Yhteistyo
 
         private void VaihdaBT_Click(object sender, EventArgs e)
         {
-            OtsikkoLB.Text = "Heippa Rukhana!";
+            OtsikkoLB.Text = "Heippa Ziyaaddin!";
         }
     }
 }
