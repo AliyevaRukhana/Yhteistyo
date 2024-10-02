@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            OstikkoLB = new Label();
+            OtsikkoLB = new Label();
             VaihdaBT = new Button();
             SuspendLayout();
             // 
-            // OstikkoLB
+            // OtsikkoLB
             // 
-            OstikkoLB.AutoSize = true;
-            OstikkoLB.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            OstikkoLB.Location = new Point(35, 27);
-            OstikkoLB.Name = "OstikkoLB";
-            OstikkoLB.Size = new Size(80, 25);
-            OstikkoLB.TabIndex = 0;
-            OstikkoLB.Text = "Ostikko";
+            OtsikkoLB.AutoSize = true;
+            OtsikkoLB.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            OtsikkoLB.Location = new Point(35, 27);
+            OtsikkoLB.Name = "OtsikkoLB";
+            OtsikkoLB.Size = new Size(87, 25);
+            OtsikkoLB.TabIndex = 0;
+            OtsikkoLB.Text = "Otstikko";
             // 
             // VaihdaBT
             // 
@@ -51,6 +51,7 @@
             VaihdaBT.TabIndex = 1;
             VaihdaBT.Text = "Vaihda";
             VaihdaBT.UseVisualStyleBackColor = true;
+            VaihdaBT.Click += VaihdaBT_Click;
             // 
             // Form1
             // 
@@ -58,7 +59,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(606, 300);
             Controls.Add(VaihdaBT);
-            Controls.Add(OstikkoLB);
+            Controls.Add(OtsikkoLB);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -67,7 +68,7 @@
 
         #endregion
 
-        private Label OstikkoLB;
+        private Label OtsikkoLB;
         private Button VaihdaBT;
     }
 }
